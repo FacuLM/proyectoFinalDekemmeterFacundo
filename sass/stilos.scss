@@ -1,6 +1,6 @@
 @use "reset";
-@use "variables";
 @use "mixin";
+@use "variables";
 
 /* NAVBARRA*/
 
@@ -78,7 +78,7 @@
     .imgBanner{
             width: variables.$width;
         img{
-                width: variables.$width;
+            width: variables.$width;
         }
     }
     h2{
@@ -97,7 +97,7 @@
                 height: 400px;
                     img{
                         border-radius: 5px;
-                            width: variables.$width;
+                        width: variables.$width;
                     }
             }
             p{
@@ -124,7 +124,7 @@
             }
             .pFord{
                 background-color: rgb(16, 152, 247);
-                    width: variables.$width;;
+                    width: variables.$width;
             }
     }
     .finMainIndex{
@@ -174,7 +174,7 @@
         display: flex;
         flex-direction: column;
         align-items: variables.$center;
-        text-align: variables.$center;
+        text-align:  variables.$center;
         div{
             h2{
                 margin: 15px 0;
@@ -340,7 +340,7 @@
             flex-direction: row;
             justify-content: space-around;
             gap: 20px;
-            background-color: variables.$color;
+            background-color:  variables.$color;
             .ctf{
                     display: flex;
                     flex-direction: column;
@@ -487,7 +487,9 @@ footer{
     }
     .divColumnaIndex{
         div{
-            width: 400px;
+            width: 100%;
+            height: 50%;
+            margin-top: 10px;
         }
         p{
             margin: 0;
