@@ -1,0 +1,23 @@
+.animacion{
+    animation-name: animacion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    @keyframes animacion {
+        0% {
+            color: #EC9A29;
+        }
+        25%{
+            color: #F2F7F2;
+        }
+        50%{
+            color: #A8201A ;
+        }
+        75%{
+            color: #1098F7;
+        }
+        100%{
+            color: #EC9A29;
+        }
+    }
+}

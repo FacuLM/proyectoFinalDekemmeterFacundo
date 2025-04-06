@@ -7,6 +7,30 @@ html {
   font-size: 62.5;
 }
 
+.animacion, .mainModelos h1 {
+  animation-name: animacion;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+@keyframes animacion {
+  0% {
+    color: #EC9A29;
+  }
+  25% {
+    color: #F2F7F2;
+  }
+  50% {
+    color: #A8201A;
+  }
+  75% {
+    color: #1098F7;
+  }
+  100% {
+    color: #EC9A29;
+  }
+}
+
 /* NAVBARRA*/
 .navBarra {
   padding: 10px;
@@ -341,6 +365,10 @@ html {
   text-decoration: none;
   font-size: 25px;
   font-family: "Montserrat", serif;
+  margin: 6px 0;
+  padding: 20px 0;
+  font-weight: 900;
+  color: rgb(47, 43, 43);
 }
 .mainModelos .sectionModelos div .cuadroModelos {
   display: grid;

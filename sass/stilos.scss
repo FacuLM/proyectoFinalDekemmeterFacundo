@@ -1,6 +1,7 @@
 @use "reset";
 @use "mixin";
 @use "variables";
+@use "animacion";
 
 /* NAVBARRA*/
 
@@ -383,6 +384,11 @@
         text-decoration: none;
         font-size: 25px;
         font-family: "Montserrat", serif;
+        margin: 6px 0;
+        padding: 20px 0;
+        font-weight: 900;
+        color: rgb(47, 43, 43);
+        @extend .animacion; 
     }
     .sectionModelos{
         div{
