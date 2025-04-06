@@ -1,23 +1,30 @@
 .animacion{
     animation-name: animacion;
-    animation-duration: 4s;
+    animation-duration: 3.5s;
     animation-iteration-count: infinite;
     animation-delay: 0s;
+    box-shadow: 0px -5px 20px 5px white;
     @keyframes animacion {
         0% {
-            background-color: #EC9A29;
+            color: #A8201A;
         }
-        25%{
-            background-color: #A8201A ;
+        20%{
+            color: #EC9A29;
         }
-        50%{
-            background-color: #F2F7F2;
+        40%{
+            color: #1098F7;
         }
-        75%{
-            background-color: #1098F7;
+        60%{
+            color: #A8201A;
         }
-        100%{
-            background-color: #EC9A29;
+        80%{
+            color: #EC9A29;
+        }
+        100% {
+            color: #1098F7;
         }
     }
+}
+.gradianteH1{
+    background-image: linear-gradient(to right, #A8201A, #EC9A29, #1098F7);
 }
