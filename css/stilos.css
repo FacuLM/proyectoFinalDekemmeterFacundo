@@ -7,6 +7,10 @@ html {
   font-size: 62.5;
 }
 
+.fondo, .mainIndex, .mainPrivacidad, .bodyContactos, .bodyEnviar .mainEnviar, .mainFinanciamiento, .mainModelos {
+  background: linear-gradient(#1a1423 25%, #1a1423 70%, #23022e 80%, #23022e 100%);
+}
+
 .animacion, .mainModelos h1 {
   animation-name: animacion;
   animation-duration: 3.5s;
@@ -16,27 +20,18 @@ html {
 }
 @keyframes animacion {
   0% {
-    color: #A8201A;
+    color: #c8c7c9;
   }
-  20% {
-    color: #EC9A29;
-  }
-  40% {
-    color: #1098F7;
-  }
-  60% {
-    color: #A8201A;
-  }
-  80% {
-    color: #EC9A29;
+  50% {
+    color: #9A939A;
   }
   100% {
-    color: #1098F7;
+    color: #79707B;
   }
 }
 
 .gradianteH1, .mainModelos h1 {
-  background-image: linear-gradient(to right, #A8201A, #EC9A29, #1098F7);
+  background-image: linear-gradient(to right, #1A1A1D, #3B1C32, #6A1E55, #A64D79);
 }
 
 /* NAVBARRA*/
@@ -98,9 +93,6 @@ html {
   margin: 0;
 }
 
-.mainIndex {
-  background-color: rgb(26, 20, 35);
-}
 .mainIndex .imgBanner {
   width: 100%;
 }
@@ -161,7 +153,6 @@ html {
 }
 
 .mainPrivacidad {
-  background-color: rgb(26, 20, 35);
   color: white;
 }
 .mainPrivacidad div {
@@ -176,9 +167,6 @@ html {
   padding: 5px 0;
 }
 
-.bodyContactos {
-  background-color: rgb(26, 20, 35);
-}
 .bodyContactos .mainContactos {
   background-image: url(../img/20-08-t-commerce-1200x600.jpg);
   background-repeat: no-repeat;
@@ -268,7 +256,6 @@ html {
 }
 
 .bodyEnviar .mainEnviar {
-  background-color: rgb(26, 20, 35);
   height: 500px;
   display: block;
   text-align: center;
@@ -285,9 +272,6 @@ html {
   font-size: 20px;
 }
 
-.mainFinanciamiento {
-  background-color: rgb(26, 20, 35);
-}
 .mainFinanciamiento .tituloFin {
   text-align: center;
   font-family: "Roboto Slab", serif;
@@ -328,7 +312,6 @@ html {
   background-color: rgb(24, 48, 89);
 }
 .mainFinanciamiento .parrafoFin {
-  background-color: rgb(26, 20, 35);
   margin: 0;
   padding: 10px;
   color: white;
@@ -366,9 +349,6 @@ html {
   margin: 0;
 }
 
-.mainModelos {
-  background-color: rgb(26, 20, 35);
-}
 .mainModelos h1 {
   text-decoration: none;
   font-size: 25px;
@@ -391,7 +371,7 @@ html {
 }
 .mainModelos .sectionModelos div .cuadroModelos .divImgModelos .botonConsultar {
   margin: 20px 0;
-  background-color: rgb(26, 20, 35);
+  background-color: #1a1423;
   padding: 5px;
   border-radius: 10px 15px 20px 10px;
   box-shadow: 5px 2px 20px 5px rgb(55, 37, 73);
@@ -461,6 +441,9 @@ footer div ul li a {
   }
   .mainIndex .divColumnaIndex p {
     margin: 0;
+  }
+  .mainPrivacidad {
+    text-align: center;
   }
   .bodyContactos .mainContactos .contactanos {
     height: 300px;

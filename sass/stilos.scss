@@ -67,7 +67,7 @@
 // index
 
 .mainIndex{
-    background-color: variables.$colorBackground;
+    @extend .fondo;
     .imgBanner{
             width: variables.$width;
         img{
@@ -131,7 +131,7 @@
 // privacidad
 
 .mainPrivacidad{
-    background-color: variables.$colorBackground;
+    @extend .fondo;
     color: white;
     div{
         margin: 30px;
@@ -149,7 +149,7 @@
 // contactos
 
 .bodyContactos{
-    background-color: variables.$colorBackground;
+    @extend .fondo;
     .mainContactos{
         background-image: url(../img/20-08-t-commerce-1200x600.jpg);
         background-repeat: no-repeat;
@@ -258,7 +258,7 @@
 
 .bodyEnviar{
     .mainEnviar{
-        background-color: variables.$colorBackground;
+        @extend .fondo;
         height: 500px;
         display: block;
         text-align: center;
@@ -280,7 +280,7 @@
 // financiamiento
 
 .mainFinanciamiento{
-    background-color: variables.$colorBackground;
+    @extend .fondo;
     .tituloFin{
         text-align: variables.$center;
         font-family: "Roboto Slab", serif;
@@ -321,7 +321,6 @@
             }
         }
         .parrafoFin{
-            background-color: variables.$colorBackground;
             margin: 0;
             padding: 10px;
             color: white;
@@ -333,7 +332,7 @@
             flex-direction: row;
             justify-content: space-around;
             gap: 20px;
-            background-color:  variables.$color;
+            background-color: variables.$color;
             .ctf{
                     display: flex;
                     flex-direction: column;
@@ -371,7 +370,7 @@
 // modelos
 
 .mainModelos{
-    background-color: variables.$colorBackground;
+    @extend .fondo;
         h1{
             text-decoration: none;
             font-size: 25px;
@@ -495,6 +494,12 @@ footer{
     }
 }
 
+// privacidad
+
+.mainPrivacidad{
+    text-align: center;
+}
+
 // contactos
 
 .bodyContactos{
@@ -508,7 +513,6 @@ footer{
         .formcontacto{
             margin: 20px;
         }
-
     }
 }
 
@@ -570,12 +574,12 @@ footer{
                     }
                 }
             }
-                div{
-                    .tea{
-                        text-align: variables.$center;
-                        margin: 20px 0;
-                    }
+            div{
+                .tea{
+                    text-align: variables.$center;
+                    margin: 20px 0;
                 }
+            }
         }
     }
 }
