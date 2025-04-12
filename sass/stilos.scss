@@ -13,11 +13,7 @@
                 h1{
                     margin-bottom: 15px;
                     :hover{
-                        box-shadow: 0 0 20px silver;
-                        transition: 0.5s;
-                        color: black;
-                        background-color: azure;
-                        border-radius: 20px;
+                        @include mixin.hover;
                     }
                     a{
                         margin: 0;
@@ -37,11 +33,7 @@
                     justify-content: space-evenly;
                         li{
                             :hover{
-                                border-radius: 20px;
-                                box-shadow: 0 0 20px silver;
-                                color: black;
-                                background-color: azure;
-                                transition: 0.5s;
+                                @include mixin.hover;
                                 font-weight: 600;
                             }  
                             a{

@@ -69,11 +69,11 @@ html {
   justify-content: space-evenly;
 }
 .navBarra div div ul li :hover {
-  border-radius: 20px;
   box-shadow: 0 0 20px silver;
+  transition: 0.5s;
   color: black;
   background-color: azure;
-  transition: 0.5s;
+  border-radius: 20px;
   font-weight: 600;
 }
 .navBarra div div ul li a {
